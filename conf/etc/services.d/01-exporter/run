@@ -1,0 +1,5 @@
+#!/bin/sh
+NAME="OpenDataSoft Exporter"
+COMMAND="python3 /usr/bin/opendatasoft-exporter.py"
+
+exec service-handler "$NAME" "$COMMAND" 
